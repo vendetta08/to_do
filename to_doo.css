@@ -1,0 +1,35 @@
+body{
+    
+    background-image: url("diary_photo.jpeg");
+    width:auto;
+}
+#emptbl {
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/* header */
+#emptbl thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+/* the cells */
+#emptbl th,
+#emptbl td {
+    padding: 12px 15px;
+}
+#emptbl tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+#emptbl tbody tr:last-of-type {
+    border-bottom: 2px solid red;
+}
+
